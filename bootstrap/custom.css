@@ -1,0 +1,149 @@
+@font-face{
+    font-family: sign;
+    src: url(../font/DancingScript-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: logo;
+    src: url(../font/Pacifico-Regular.ttf);
+}
+body{
+	background-color: #f7f4f4		;
+}
+
+/*Navbar*/
+
+.navbar-brand {
+	font-family: logo;
+	font-size: xx-large;
+	margin:5px 0px 0px 3x;
+}
+#logo{
+	width: 60px; 
+}
+
+.navbar{
+	background-color: #e3d4d3	;
+	
+	}
+
+/* Banner */
+
+#banner{
+	background-color: #f1ecec	;
+	padding-bottom: 5px;
+	box-shadow: 0px 20px #e6d8d7;
+}
+#banner img{
+	width:100%;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+.tagline div{
+	background-color: #d8c9c8;
+	border: 1px solid #9d7876;
+	border-radius: 8px;
+	margin: 100px 80px 50px 100px;
+	box-shadow: 10px 10px #b09d9c;
+}
+
+.tagline p{
+	
+	padding: 60px 60px 5px 60px;
+    text-align: center;
+}
+.tagline pre{
+
+	font-size: 18px;
+	text-align: center;
+}
+
+#subtagline{
+	font-family: sign;
+	font-size: 18px;
+	text-align: right;
+	margin: 0px;
+    padding: 5px 15px;
+}
+.tagline .btn{
+	font-family: logo;
+	background-color: #d8c9c8;
+	color: black;
+	float: right;
+	margin-right: 80px;
+	
+}
+/*Cards*/
+#card {
+	margin: 30px 0px;
+	background-color: #f7f4f4	;
+}
+#card img{
+	
+	 height: 200px;
+	 
+}
+#card .col{
+	padding:20px;
+}
+
+#card .btn{
+	float: right;
+}
+
+/*Footer*/
+#footer {
+	background-color: #e3d4d3;
+	font-size:15px;
+	color:#5c5656;
+	
+}
+
+#footer1{
+	background-color: #f0e8e7	;
+	
+	text-align: center;
+}
+
+
+#footer hr{
+	height:2px;
+	
+	margin:0px;
+	padding: 0px;
+}
+
+#footer p{
+	color:#5c5656;
+}
+#footer a{
+	display: inline-block;
+	color:#5c5656;
+}
+#contactus_footer{
+	padding:15px 25px 5px 105px;
+	
+}
+.footer_contentus_p{
+	margin: 6px 6px 6px 50px;
+}
+
+/* icon */
+i{
+	color:grey;
+	padding: 6px 20px 10px 20px;
+}
+
+/*about us page content */
+
+#aboutus h3{
+	font-family: logo;
+	font-size: xx-large;
+	padding: 15px 0px 0px 0px;
+}
+/*partnership*/
+#partnership img{
+ width :150px;
+ height: 150px;
+}
